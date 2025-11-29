@@ -1,0 +1,114 @@
+header{
+    background: linear-gradient( 
+        90deg,
+        #59c5b3 0%,
+        #18776f 100%
+    );
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    white-space: hidden;
+    transition: transform 0.3s ease;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color: #000;
+    margin-bottom: 20px;
+    background-image: linear-gradient(90deg,
+    #0bc6ff,
+    #00FF88);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 2px rgba(1,1,2,0.1);
+}
+section{
+    position: absolute;
+    top: 16%;
+    left: 2%;
+    width: 93%;
+    height: 80%;
+    margin: 0;
+    padding: 0%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+ol, ul{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+#special-list-1{
+    margin-left: 30px;
+}
+
+button{
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    top: 53%;
+    width: 35px;
+    height: 35px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgba(204, 204, 204, 0.404);
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+button:hover{
+    background-color: rgba(204, 204, 204, 0.705);
+}
+
+
+#backword{
+    position: fixed !important; 
+
+    left: 81% !important;
+}
+
+button:disabled{
+    cursor: not-allowed;
+    background-color: rgba(204, 204, 204, 0.2);
+}
+
+#forward {
+    position: fixed ;
+    left: 88%;
+}
+
+#realexfr{
+    position: absolute;
+    top: 0%;
+}
+
+#af{
+    position: absolute;
+    top: 2%;
+}
