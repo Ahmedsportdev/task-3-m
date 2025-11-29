@@ -1,17 +1,3 @@
-window.onload = () => {
-    const w = screen.width;
-    const h = screen.height;
-
-    if (w <= 768) {
-        // موبايل
-        location = "https://ahmedsportdev.github.io/task-3-m/";
-    } else {
-        // كمبيوتر
-        location = "https://ahmedsportdev.github.io/task-3-c/";
-    }
-};
-
-
 var section_now = 0;
 var btn_next = document.getElementById("forward");
 var btn_prev = document.getElementById("backward");
@@ -62,3 +48,4 @@ function num_of_div(def = "all"){
 
 // Initialize view
 updateView();
+
